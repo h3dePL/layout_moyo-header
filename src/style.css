@@ -32,6 +32,17 @@ body {
   align-items: center;
 }
 
+.is-active .nav__link {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -8px;
+  width: 32px;
+  height: 3px;
+  background-color: var(--blue);
+}
+
 .nav__link:hover {
   color: var(--blue);
 }
@@ -49,4 +60,12 @@ body {
 
 :hover {
   --blue: #00ACDC;
+}
+
+::after {
+  height: 2px;
+  background-color: var(--blue);
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
 }
