@@ -20,6 +20,8 @@ body {
 
 .nav__logo {
   height: 40px;
+  margin-left: 50px;
+  margin-top: 10px;
 }
 
 .nav__link {
@@ -58,7 +60,6 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  margin-right: 50px;
 }
 
 .nav__item {
