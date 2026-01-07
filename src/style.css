@@ -7,10 +7,10 @@ body {
 
 .header {
   background-color: white;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  margin-top: 10px;
 }
 
 .nav {
@@ -21,6 +21,8 @@ body {
 
 .nav__logo {
   margin-left: 50px;
+  width: 40px;
+  height: 40px;
 }
 
 .nav__link {
@@ -59,7 +61,7 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  margin-left: 250px;
+  margin-left: 333px;
 }
 
 .nav__item + .nav__item {
@@ -69,3 +71,8 @@ body {
 :root {
   --blue: #00acdc;
 }
+
+.page {
+  padding-top: 10px;
+}
+
