@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 body {
   margin: 0;
@@ -10,6 +10,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  margin-top: 10px;
 }
 
 .nav {
@@ -19,7 +20,6 @@ body {
 }
 
 .nav__logo {
-  height: 40px;
   margin-left: 50px;
 }
 
@@ -48,10 +48,10 @@ body {
   left: 50%;
   transform: translateX(-50%);
   bottom: -8px;
-  width: 32px;
+  width: 37px;
   height: 4px;
   background-color: var(--blue);
-  border-radius: 3px;
+  border-radius: 8px;
 }
 
 .nav__list {
@@ -59,6 +59,7 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
+  margin-left: 250px;
 }
 
 .nav__item + .nav__item {
@@ -66,5 +67,5 @@ body {
 }
 
 :root {
-  --blue: #00ACDC;
+  --blue: #00acdc;
 }
