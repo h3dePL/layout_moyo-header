@@ -32,19 +32,19 @@ body {
   align-items: center;
 }
 
-.is-active .nav__link {
+.nav__link:hover {
+  color: var(--blue);
+}
+
+.nav__link.is-active {
+  position: relative
+}
+
+.nav__link.is-active::after {
   content: '';
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  bottom: -8px;
-  width: 32px;
-  height: 3px;
-  background-color: var(--blue);
-}
-
-.nav__link:hover {
-  color: var(--blue);
 }
 
 .nav__list {
@@ -56,16 +56,4 @@ body {
 
 :root {
   --blue: #00ACDC;
-}
-
-:hover {
-  --blue: #00ACDC;
-}
-
-::after {
-  height: 2px;
-  background-color: var(--blue);
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 0;
 }
